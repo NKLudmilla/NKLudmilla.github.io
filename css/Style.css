@@ -1,16 +1,21 @@
 @font-face{
     font-family: "kaushan";
-    src: url(css/KaushanScript-Regular.ttf);font-weight: 400;
+    src: url("../fonts/KaushanScript-Regular.ttf");font-weight: 400;
 }
 
 @font-face {
-    font-family: "Philo"; src: url("css/Philosopher-Regular.ttf");font-weight: 500;
+    font-family: "Philo"; src: url("../fonts/Philosopher-Regular.ttf");font-weight: 500;
 }    
 
 h1 {font-family:"kaushan";color:rgb(73, 10, 10);font-size: 200%; background-color: rgba(196, 151, 147, 0.6); display: inline;
-border-radius: 10px;padding-bottom: 1 px;box-shadow: 0 0 10px rgb(82, 48, 3);
+border-radius: 10px;padding-bottom: 1 px;box-shadow: 0 0 10px rgb(82, 48, 3);position: relative 5px;
 }
-div { background-color: rgba(168, 78, 78, 0.5); border-radius: 10px;}
+div { background-color: rgba(168, 78, 78, 0.5); border-radius: 10px;box-shadow: 0 0 10px rgb(82, 48, 3)}
 .cimsor {font-family:"Philo"; color: rgb(75, 37, 10); font-size: 125%; border-bottom:solid 1px rgb(49, 10, 5);margin-left: 9px;
 font-weight: 600;padding-top: 1px;}
 .felsorolas {font-size:larger; }
+img { box-sizing: 0 0 10px black;}
+html{ background-image: url("../img/SQC9iZ.jpg")
+    ;background-position: left center;background-repeat: repeat-y;
+}
+

@@ -1,0 +1,22 @@
+@font-face{
+    font-family:"kaushan"; src: url("../fonts/KaushanScript-Regular.ttf");font-weight: 400;
+}
+
+h1 {font-family:"kaushan";color:rgb(73, 10, 10);font-size: 200%; background-color: rgba(196, 151, 147, 0.6); display: inline;
+    border-radius: 10px;padding-bottom: 1 px;box-shadow: 0 0 10px rgb(82, 48, 3);position: relative 5px;}
+
+h2 {font-family:"kaushan";color:rgb(73, 10, 10);font-size: 200%}    
+
+
+body{ background-image: url(../img/SQC9iZ.jpg);}
+.login{ padding: 15px; border: solid 1 px rgb(49, 10,5) ;
+box-shadow: 0 0 2px black; display: inline-block;}
+.login input { display: block; margin-bottom: 7px;}
+.login input[ type="email"] { border: solid 1px brown;}
+.login input[ type="password"] { border: solid 1px brown;}
+.login button:hover { box-shadow: 0 0 6px;}
+.login input:focus { box-shadow: 2px 2px 3px black ;border: none;}
+
+.rendeles { padding: 15px; border: solid 1px rgb(49, 10,5);box-shadow: 0 0 2px black; display:table;}
+.rendeles input { display: block; margin-bottom: 7px;}
+.rendelés input:hover[ type="name"] { border: solid 1px brown;}
